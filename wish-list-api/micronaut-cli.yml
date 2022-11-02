@@ -1,0 +1,6 @@
+applicationType: default
+defaultPackage: com.eldarlucic.wishlist
+testFramework: junit
+sourceLanguage: kotlin
+buildTool: gradle
+features: [annotation-api, app-name, data, data-jdbc, flyway, gradle, http-client, jackson-databind, jdbc-hikari, junit, kotlin, kotlin-application, kotlin-build, kotlin-extension-functions, log4j2, micronaut-build, mockito, netty-server, postgres, problem-json, readme, shade, sql-jdbi, test-resources, yaml]

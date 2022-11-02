@@ -1,0 +1,11 @@
+version: '3.8'
+services:
+  postgres:
+    image: 'postgres:15.0'
+    restart: always
+    environment:
+      POSTGRES_USER: 'username'
+      POSTGRES_PASSWORD: 'password'
+      POSTGRES_DB: 'wish_list_db'
+    ports:
+      - 5432:5432
